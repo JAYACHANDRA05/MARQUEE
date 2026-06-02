@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmyshow</title>
+   <style>
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        background-color: #F5F5F5;
+    }
+    .navbar
+    {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .logo
+    {
+        height: 100px;
+        width: 150px;
+        background-image: url(bookmyshowlogo.png);
+        background-size:contain;
+        background-repeat: no-repeat; 
+        background-position: center;
+    }
+    .search
+    {
+        height: 100px;
+        width: 600px;
+        display: flex;
+        align-items: center;
+
+    }
+    #sear
+    {
+        width: 100%;
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .cities
+    {
+        height: 100px;
+        width: 100px;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+    .signin
+    {
+       height: 35px;
+       width: 80px;
+       background-color: #f84464;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       border-radius: 5px;
+       justify-content: center;
+       color: white;
+    }
+    .options
+    {
+        height: 30px;
+        width: 70px;
+        background-image: url(threelines.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondnav
+    {
+        height: 50px;
+        width: 100%;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #ccc;
+
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .items,.third ul
+    {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        height: 100%;
+        gap: 20px;
+    }
+    .heroimg
+    {
+        height: 350px;
+        width: 100%;
+        background-image: url(https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1778912523150_sardarweb.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 15px;
+    }
+    .matter
+    {
+       width: 95%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p
+    {
+        color: #f84464;
+    }
+ .movies
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.movie-card
+{
+    width: 220px;
+}
+
+.movie-card img
+{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+   </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"></div>
+        <div class="search">
+            <input type="search" name="searchbar" id="sear" placeholder="Search for movies,Events,Plays,Sports and Activites">
+        </div>
+        <div class="cities">Vadodara</div>
+        <div class="signin">Sign in</div>
+        <div class="options"></div>
+    </div>
+    <div class="secondnav">
+        <div class="lists">
+        <ul class="items">
+            <li><a href="https://bookmyshow.com">Movies</a></li>
+            <li><a href="https://bookmyshow.com">Stream</a></li>
+            <li><a href="https://bookmyshow.com">Events</a></li>
+            <li><a href="https://bookmyshow.com">Plays</a></li>
+            <li><a href="https://bookmyshow.com">Sports</a></li>
+            <li><a href="https://bookmyshow.com">Activities</a></li>
+        </ul>
+        </div>
+        <div class="third">
+            <ul>
+                <li>ListYourShow</li>
+                <li>Corporates</li>
+                <li>Offers</li>
+                <li>Gift Cards</li>
+            </ul>
+        </div>
+    </div>
+    <div class="heroimg"></div><br>
+    <div class="matter">
+         <h2>Recommended Movies</h2>
+         <p>See All ></p>
+    </div>
+    <div class="movies">
+    <div class="movie-card">
+        <img src="box1.jpg" alt="">
+        <h3>The Great Grand Superhero</h3>
+        <span>Adventure/Family</span>
+    </div>
+
+    <div class="movie-card">
+        <img src="box2.jpg" alt="">
+        <h3>Krishnavataram part-1</h3>
+        <span>Adventure/Divotional</span>
+    </div>
+
+    <div class="movie-card">
+        <img src="box3.jpg" alt="">
+        <h3>Chand Mera Dil</h3>
+        <span>Drama/Romantic</span>
+    </div>
+
+    <div class="movie-card">
+        <img src="box4.jpg" alt="">
+        <h3>Pati Patni Aur Woh Do</h3>
+        <span>Comedy/Romantic</span>
+    </div>
+
+    <div class="movie-card">
+        <img src="box5.jpg" alt="">
+        <h3>Dharpakad</h3>
+        <span>Crime/Drama</span>
+    </div>
+</div>
+</body>
+</html>
